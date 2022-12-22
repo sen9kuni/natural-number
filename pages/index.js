@@ -51,7 +51,7 @@ export default function Home() {
           <form onSubmit={inputNilai}>
             <label className='flex flex-col gap-2'>
               <span className='font-bold text-2xl capitalize'>
-                input nilai pisah dengan koma, contoh: 11 22{' '}
+                input nilai pisah dengan koma, contoh: 1,5,2,1,5,6,8,6
               </span>
               <input
                 type='text'
